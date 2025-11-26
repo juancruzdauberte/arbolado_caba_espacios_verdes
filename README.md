@@ -80,6 +80,30 @@ Análisis de la distribución de diámetros de tronco mediante histograma, revel
 - Estructura etaria del arbolado (árboles jóvenes vs. maduros)
 - Patrones de crecimiento
 
+### 4. Densidad de árboles por comuna
+
+Se analizó la distribución de los árboles por comuna en los espacios verdes de CABA mediante un mapa coroplético de calor. El análisis revela:
+
+- Densidad de árboles por comuna
+- Comunas con mayor concentración de árboles
+- Comunas con menor concentración de árboles
+
+### 5. Calidad del espacio verde
+
+Se analizó la calidad del espacio verde en los espacios verdes de CABA mediante un mapa coroplético. El análisis revela:
+
+- Calidad del espacio verde por comuna
+- Comunas con mayor calidad de espacio verde
+- Comunas con menor calidad de espacio verde
+
+### 6. Distribución de alturas de árboles por comuna
+
+Se analizó la distribución de las alturas totales de los árboles en los espacios verdes de CABA mediante un mapa coroplético. El análisis revela:
+
+- Alturas totales de los árboles por comuna
+- Comunas con mayor altura de árboles
+- Comunas con menor altura de árboles
+
 ## 🛠️ Tecnologías Utilizadas
 
 - **Python 3.x**
@@ -88,12 +112,16 @@ Análisis de la distribución de diámetros de tronco mediante histograma, revel
 - **Seaborn**: Visualizaciones estadísticas avanzadas
 - **GeoPandas**: Análisis de datos geoespaciales
 - **Shapely**: Operaciones geométricas
+- **Plotly**: Visualizaciones interactivas
 
 ## 📊 Visualizaciones Generadas
 
 1. **Histograma de Alturas**: Distribución general de alturas de todos los árboles
 2. **Gráficos de Violín**: Distribución de alturas de las 10 especies más altas
 3. **Histograma de Diámetros**: Distribución de diámetros de tronco
+4. **Mapa de calor**: Densidad de árboles por comuna
+5. **Mapa de árbol**: Cantidad de árboles
+6. **Mapas coropléticos**: Calidad del espacio verde y distribución de la altura de los árboles por comuna
 
 ## 💡 Insights Principales
 
@@ -106,11 +134,7 @@ Análisis de la distribución de diámetros de tronco mediante histograma, revel
 
 - El análisis utiliza coordenadas geográficas en formato WGS84
 - Los datos de comunas están disponibles en formato shapefile
-- Todas las visualizaciones están optimizadas para claridad y legibilidad
-- El código está documentado y estructurado para fácil comprensión
 
 ---
-
-**Última actualización**: 2025-11-25
 
 **Fuente de datos**: Gobierno de la Ciudad de Buenos Aires - Datos Abiertos
